@@ -1,0 +1,152 @@
+
+
+
+.card-content {
+  width: 90%;
+  height: 281px;
+  background-color: #00c896;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  min-height: 0; /* Yazur andar ke elements ke liye overflow control ke liye */
+  gap: 32px;
+}
+
+.card-content h3 {
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: 0%;
+
+}
+
+.location{
+display: flex;
+flex-direction: row;
+gap: 12px;
+align-items: center; 
+}
+
+.location p{   
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #7A7474;
+}
+
+.desc {
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+
+}
+
+.card-content h4 {
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: 0%;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin: 12px 0;
+  border-top: 1px solid #7A74741A;
+  padding-top: 12px;
+}
+
+.feature-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.feature-box .feature-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+
+.feature-box .feature-img img{
+width: 24px;
+height: 24px;
+}
+
+
+
+.feature-box .feature-img b{
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #100E2C;
+
+}
+
+.simple-text{
+font-family: Gantari;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #100E2C;
+}
+
+
+
+
+
+
+
+.features div b {
+  display: block;
+  font-size: 14px;
+  color: black;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.share,
+.contact {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.share {
+  border: 1px solid #888;
+  background-color: white;
+}
+
+.contact {
+  background-color: #fcd12a;
+  border: none;
+}
