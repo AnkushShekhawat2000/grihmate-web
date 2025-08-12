@@ -1,5 +1,8 @@
 .home-page{
     width: 100%;
-    background-color: #fff;
-    height: 100vh;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
 }

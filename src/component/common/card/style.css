@@ -4,6 +4,8 @@
  .property-card {
   width: 100%;
   max-width: 420px;
+  height: auto;
+  min-height: 640;
   padding-bottom: 21px;
   display: flex;
   flex-direction: column;
