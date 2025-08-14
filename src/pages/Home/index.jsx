@@ -6,6 +6,8 @@ import FeaturedProperties from "../../component/FeaturedProperties"
 import ClientFeedback from "../../component/ClientFeedback"
 import ContactSection from "../../component/ContactUs/index"
 import City from "../../component/City/index"
+import Footer from "../../component/common/Footer"
+
 const Home = () => {
     return (
         <div className="home-page">
@@ -17,6 +19,10 @@ const Home = () => {
                 <ContactSection/>
                 <City/>
             </main>
+
+            <Footer/>
+
+
 
         </div>
     )
