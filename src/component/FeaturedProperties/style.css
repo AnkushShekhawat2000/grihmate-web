@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-
+  padding-top: 40px;
 }
 
 .property-section {
@@ -65,10 +65,10 @@
 }
 
 .feature-btn > p{
-  padding: 10px;
+  padding-bottom: 6px;
   color: #100E2C;
   font-weight: 500;
-  font-size: clamp(0.71rem, 1.2vw, 5rem);
+  font-size: 1.4rem;
 } 
 
 .feature-btn > img{
@@ -85,4 +85,8 @@
   justify-content: center;
   gap: 20px;
   padding: 10px;
+}
+
+@media (max-width: 992px) {
+  
 }

@@ -58,7 +58,7 @@
   padding: 9px 16px;
   border-radius: 6px;
   border: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background-color: #fff;
 }
 
@@ -120,10 +120,19 @@
   .contact-form,
   .contact-text {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
   }
   .contact-text h1 {
     font-size: 1.6rem;
     line-height: 2.2rem;
   }
+
+    .contact-form > input{
+      height: 40px;
+      padding: 10px;
+    }
+
+    .contact-form > textarea{
+      height: 80px;
+    }
 }

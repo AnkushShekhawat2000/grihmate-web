@@ -41,8 +41,9 @@ font-style: "Regular";
 color:#000000;
 line-height: 1.2rem;
 font-size: 0.9em;
-
 }
+
+
 
 .search-filter select {
   padding: 8px;
@@ -71,13 +72,13 @@ font-size: 0.9em;
 .search-btn > p{
 font-family: "Inter";
 font-weight: 600;
-font-size: 0.8rem !important ;
+font-size: 1rem !important ;
 color: #100E2C!important;
 }
 
 .search-btn > img {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
 }
 
 

@@ -1,5 +1,4 @@
 
-
 :root {
   font-size: 16px; /* 1rem = 16px, zoom change hone par ye scale hoga */
 }
@@ -8,6 +7,11 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+   box-shadow: 0px 9px 11px rgba(0, 0, 0, 0.1);
 
 }
 
