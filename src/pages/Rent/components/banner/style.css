@@ -1,4 +1,4 @@
-.banner-container{
+/* .banner-container{
     width: 96%;
     height: 160px;
     background: #2A3A68;
@@ -30,8 +30,8 @@ font-weight: 400;
 font-size: 16px;
 line-height: 20px;
 color: #fff;
-white-space: nowrap;        /* ek hi line me rahe */
-overflow: hidden;           /* jo extra hai wo hide ho */
-text-overflow: ellipsis;    /* ... lag jaye */
+white-space: nowrap;       
+overflow: hidden;          
+text-overflow: ellipsis;    
 width: 75%;
-}
+} */
