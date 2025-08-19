@@ -11,21 +11,11 @@ import Footer from "../../component/common/Footer"
 const Home = () => {
     return (
         <div className="home-page">
-            <Header/>
-            <main>
                 <HeroSection/>
                 <FeaturedProperties/>
                 <ClientFeedback/>
                 <ContactSection/>
                 <City/>
-            </main>
-
-            <Footer/>
-
-            
-
-
-
         </div>
     )
 }

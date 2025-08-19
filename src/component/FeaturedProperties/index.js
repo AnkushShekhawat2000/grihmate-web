@@ -25,6 +25,9 @@ const FeaturedProperties = () => {
                 <PropertyCard/>
                 <PropertyCard/>
                 <PropertyCard/>
+                 <PropertyCard/>
+                <PropertyCard/>
+                
 
             </div>
 

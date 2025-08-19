@@ -4,6 +4,7 @@
 }
 
 .header {
+  padding-block:10px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -96,7 +97,7 @@
   
   .links {
     width: 30%;
-    justify-content: center;
+    display: none;
   }
 
   
