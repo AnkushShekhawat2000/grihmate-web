@@ -5,6 +5,7 @@
     border-radius: 12px;
     padding-top: 35px;
     padding-left: 43px;
+    margin-block: 20px;
 }
 
 
@@ -19,7 +20,7 @@
 .banner-details > h1{
 font-family: "Poppins";
 font-weight: 600;
-font-size: 36px;
+font-size: 32px;
 line-height: 20px;
 color: #fff;
 }
@@ -34,4 +35,58 @@ white-space: nowrap;
 overflow: hidden;          
 text-overflow: ellipsis;    
 width: 75%;
+}
+
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .banner-container {
+        width: 95%;
+        height: auto;  /* Auto height for flexible layout */
+        padding: 25px;
+    }
+
+    .banner-details {
+        width: 70%;   /* Take more space on tablets */
+        gap: 12px;
+    }
+
+    .banner-details > h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .banner-details > p {
+        font-size: 14px;
+        width: 90%;  /* Text thoda aur readable */
+        white-space: normal;  /* Wrap text instead of ellipsis */
+    }
+}
+
+/* Mobile View (max 767px) */
+@media (max-width: 767px) {
+    .banner-container {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        flex-direction: column; /* Stack items */
+    }
+
+    .banner-details {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .banner-details > h1 {
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .banner-details > p {
+        font-size: 14px;
+        width: 100%;  
+        white-space: normal;  /* No cutoff */
+        text-align: center;
+    }
 }
