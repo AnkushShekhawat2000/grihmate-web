@@ -1,18 +1,31 @@
 import React from "react"
+import arrowSymbol from "./assets/Group.svg"
+import location from "./assets/location.svg"
+import searchIcon from "./assets/searchIcon.svg"
 import "./style.css"
 
 const RentProperties = () => {
     return (
         <div className="rent-properties">
             <div className="filter-sidebar">
-                 
+                <div className="page-location">
+                    <p>Home</p>
+                    <img src={arrowSymbol}/>
+                    <p>Rent</p>
+                </div>
                  <div class="sidebar">
                             <h3>Find Properties By</h3>
 
                         
                             <div class="filter-section">
-                                <label for="location"><i class="fas fa-map-marker-alt"></i> Location</label>
-                                <input type="text" id="location" placeholder="Enter Location..."/>
+                                <label for="location">
+                                    <img src={location}/>Location
+                                </label>
+                               <div className="input-wrapper">
+                                    <img className="search-icon" src={searchIcon}/>
+                                    <input type="text" id="location" placeholder="Enter Location..."/>
+                               </div>
+
                             </div>
 
                     
@@ -39,10 +52,8 @@ const RentProperties = () => {
                             </div>
 
                        
-                            <button class="search-btn">Search</button>
+                            <button class="rent-search-btn"><img src={searchIcon}/>Search</button>
                  </div>
-
-
             </div>
             <div className="cards-s ection"> </div>
         </div>
