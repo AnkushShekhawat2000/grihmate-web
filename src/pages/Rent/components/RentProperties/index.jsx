@@ -2,6 +2,10 @@ import React from "react"
 import arrowSymbol from "./assets/Group.svg"
 import location from "./assets/location.svg"
 import searchIcon from "./assets/searchIcon.svg"
+import listIcon from "./assets/list-icon.svg"
+import gridIcon from "./assets/gridIcon.svg"
+import PropertyCard from "../../../../component/common/card/index"
+import Pagination from "../../../../component/common/Pagination"
 import "./style.css"
 
 const RentProperties = () => {
@@ -55,7 +59,35 @@ const RentProperties = () => {
                             <button class="rent-search-btn"><img src={searchIcon}/>Search</button>
                  </div>
             </div>
-            <div className="cards-s ection"> </div>
+            <div className="cards-section"> 
+                 <div className="filter-bar">
+                      <div className="cards-tittle">
+                         <h1>Premium Properties</h1>
+                         <p>Discover your perfect home from our curated collection</p>
+
+                      </div>  
+                      <div className="filters-icons-box">
+                            <select>
+                               <option>Neiwest First</option>
+                            </select>
+                            <div className="filter-icon-left">
+                                 <img src={listIcon}/>
+                                 <img src={gridIcon}/>
+                            </div>
+                      </div>          
+                 </div>
+                 <div className="filters-card-conatiner">
+                     <PropertyCard/>
+                     <PropertyCard/>
+                     <PropertyCard/>
+                     <PropertyCard/>
+                     
+                
+                 </div>
+                 <div className="pagination-bar">
+                     
+                 </div>
+            </div>
         </div>
     )
 }
